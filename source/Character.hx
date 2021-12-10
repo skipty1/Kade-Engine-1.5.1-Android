@@ -122,9 +122,9 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 
-			case 'dad':
+			case 'bad':
 				// DAD ANIMATION LOADING CODE
-				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST', 'shared');
+				tex = Paths.getSparrowAtlas('characters/fuckthatshit', 'shared');
 				frames = tex;
 				animation.addByPrefix('idle', 'Dad idle dance', 24);
 				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
